@@ -1,0 +1,56 @@
+{
+	"pid": 12515,
+	"date": "2022-04-10T13:06:51.427Z",
+	"port": 8000,
+	"ip": "0.0.0.0",
+	"stats": [
+		{
+			"id": null,
+			"version": {
+				"node": "v16.14.0",
+				"total": "4",
+				"build": 4060,
+				"app": 14
+			},
+			"pid": 12515,
+			"thread": "",
+			"mode": "debug",
+			"overload": 0,
+			"date": "2022-04-10T13:15:51.684Z",
+			"textdb": {
+				"size": 0.013,
+				"pendingwrite": 0,
+				"pendingread": 0,
+				"duration": 0,
+				"documents": 22,
+				"reading": 0,
+				"writing": 0
+			},
+			"memory": 12.06,
+			"rm": 32,
+			"fm": 57,
+			"wm": 0,
+			"em": 0,
+			"mm": 0,
+			"om": 214,
+			"dm": 0,
+			"um": 0.021,
+			"pm": 0,
+			"sm": 0,
+			"cm": 0,
+			"dbrm": 0,
+			"dbwm": 0,
+			"usage": 0,
+			"requests": 233,
+			"pending": 0,
+			"external": 0,
+			"errors": 1,
+			"timeouts": 0,
+			"online": 1,
+			"uptime": 10,
+			"download": 0.28,
+			"upload": 0.114,
+			"lasterror": "2022-04-10T13:11:38.111Z admin - Error: View \"cmsundefined\" not found.\n    at ControllerProto.$viewrender (/var/www/html/node/cmsbundle/node_modules/total4/index.js:14872:9)\n    at ControllerProto.view (/var/www/html/node/cmsbundle/node_modules/total4/index.js:14837:14)\n    at Controller.preview (/var/www/html/node/cmsbundle/.src/plugins/pages/index.js:79:7)\n    at IncomingMessage.PROTO.$total_execute2 (/var/www/html/node/cmsbundle/node_modules/total4/index.js:16886:31)\n    at IncomingMessage.PROTO.$total_execute (/var/www/html/node/cmsbundle/node_modules/total4/index.js:16851:9)\n    at IncomingMessage.PROTO.$total_prepare (/var/www/html/node/cmsbundle/node_modules/total4/index.js:17174:9)\n    at IncomingMessage.PROTO.$total_end2 (/var/www/html/node/cmsbundle/node_modules/total4/index.js:17090:8)\n    at IncomingMessage.emit (node:events:532:35)\n    at endReadableNT (node:internal/streams/readable:1346:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"
+		}
+	]
+}
